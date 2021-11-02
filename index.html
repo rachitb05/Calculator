@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="https://i.ibb.co/nRqdGpK/calculator-256x256.png">
+
+    <title>Calculator app</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+    <!-- Font Awesome script -->
+    <script src="https://kit.fontawesome.com/94967f941a.js" crossorigin="anonymous"></script>
+    <!-- My CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="day">
+    <div class="calci">
+        <div class="head">
+            <h1>Calculator</h1>
+            <button class="theme"><i class="fas fa-sun"></i></button>
+        </div>
+
+        <input type="text" id="screen">
+
+        <table>
+            <tr>
+                <td><button class="btn">7</button></td>
+                <td><button class="btn">8</button></td>
+                <td><button class="btn">9</button></td>
+                <td><button class="btn delete">DEL</button></td>
+
+            </tr>
+            <tr>
+                <td>
+                    <button class="btn">4</button>
+                </td>
+                <td><button class="btn">5</button></td>
+                <td><button class="btn">6</button></td>
+                <td><button class="btn">+</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="btn">1</button></td>
+                <td><button class="btn">2</button></td>
+                <td><button class="btn">3</button></td>
+                <td><button class="btn">-</button></td>
+
+            </tr>
+            <tr>
+                <td><button class="btn">.</button></td>
+                <td><button class="btn">0</button></td>
+                <td><button class="btn">/</button></td>
+                <td><button class="btn" id="mul">*</button></td>
+
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <button class="btn lastcol reset ">RESET</button>
+                </td>
+                <td colspan="2">
+                    <button class="btn lastcol equalto ">=</button>
+                </td>
+
+
+            </tr>
+        </table>
+
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

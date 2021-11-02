@@ -1,0 +1,121 @@
+:root {
+    --daybgclr: hsl(222, 26%, 31%);
+    --h1clr: hsl(30, 25%, 89%);
+    --screenbgclr: hsl(224, 36%, 15%);
+    --screenclr: white;
+    --tablebgclr: hsl(223, 31%, 20%);
+    --btnbgclr: hsl(30, 25%, 89%);
+    --btnboxshadow: hsl(28, 16%, 65%);
+    --btnclr: hsl(224, 28%, 35%);
+    --dltresetbgclr: hsl(225, 21%, 49%);
+    --dltresetclr: hsl(30, 25%, 89%);
+    --eqlclr: hsl(30, 25%, 89%);
+    --eqlbglr: hsl(6, 63%, 50%);
+    --themeclr: hsl(30, 25%, 89%);
+    --themebgclr: hsl(6, 63%, 50%);
+}
+
+.day {
+    background-color: var(--daybgclr);
+    text-align: center;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    color: var(--h1clr);
+    font-size: 32px;
+    text-align: left;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.calci {
+    /* width: auto; */
+    display: inline-block;
+    margin: auto;
+    /* background-color: wheat; */
+}
+
+#screen {
+    background-color: var(--screenbgclr);
+    margin-bottom: 1.5rem;
+    color: var(--screenclr);
+    width: 460px;
+    height: 3rem;
+    text-align: right;
+    font-size: 32px;
+    font-family: 'Spartan', sans-serif;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#mul {
+    font-size: 50px;
+    line-height: 2;
+}
+
+table {
+    background-color: var(--tablebgclr);
+    padding: 20px;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 6rem;
+    height: 4rem;
+    background-color: var(--btnbgclr);
+    box-shadow: var(--btnboxshadow);
+    font-weight: bold;
+    font-size: 32px;
+    font-family: 'Spartan', sans-serif;
+    color: var(--btnclr);
+    margin: 4px;
+    border-radius: 20px;
+}
+
+.theme {
+    height: 30px;
+    background-color: var(--themebgclr);
+    color: var(--themeclr);
+}
+
+.delete {
+    color: var(--dltresetclr);
+    background-color: var(--dltresetbgclr);
+}
+
+.reset {
+    color: var(--dltresetclr);
+    background-color: var(--dltresetbgclr);
+}
+
+.equalto {
+    color: var(--eqlclr);
+    background-color: var(--eqlbglr);
+}
+
+.lastcol {
+    width: 12rem;
+}
+
+.night {
+    --daybgclr: hsl(0, 0%, 90%);
+    --h1clr: hsl(60, 10%, 19%);
+    --screenbgclr: hsl(0, 0%, 93%);
+    --screenclr: hsl(60, 10%, 19%);
+    --tablebgclr: hsl(0, 5%, 81%);
+    --btnbgclr: hsl(45, 7%, 89%);
+    --btnboxshadow: hsl(28, 16%, 65%);
+    --btnclr: hsl(60, 10%, 19%);
+    --dltresetbgclr: hsl(185, 42%, 37%);
+    --dltresetclr: hsl(30, 25%, 89%);
+    --eqlclr: hsl(30, 25%, 89%);
+    --eqlbglr: hsl(25, 98%, 40%);
+    --themeclr: hsl(30, 25%, 89%);
+    --themebgclr: hsl(25, 98%, 40%);
+}
